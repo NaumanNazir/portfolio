@@ -1,9 +1,13 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default function Navbar() {
   return (
     <nav>
-      <h2>Hello</h2>
+      <h1>Web warrior</h1>
+      <Link to="/"> Home </Link>
+      <Link to="/about"> About </Link>
+      <Link to="/projects"> Projects </Link>
     </nav>
   )
 }
