@@ -7,7 +7,9 @@ export default function Layout({ children }) {
     <div className="layout">
       <Navbar />
       <div className="content">{children}</div>
-      <footer>Copyright 2021</footer>
+      <footer>
+        <p>Copyright 2021</p>
+      </footer>
     </div>
   )
 }
